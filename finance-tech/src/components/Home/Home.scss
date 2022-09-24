@@ -1,8 +1,35 @@
 @import '../../variables.scss';
 
 .div__wrapper {
+    position: relative;
     max-width: $primary-width;
     height: 100%;
+
     margin: 0 auto;
     padding: 20px;
+
+    .shadow__bottom,
+    .shadow__top {
+        position: absolute;
+        filter: blur(150px);
+
+        background: linear-gradient(177.23deg, $purple-color, $blue-color 109.75%);
+        opacity: 0.3;
+        border-radius: 50%;
+    }
+
+    .shadow__bottom {
+        top: 59%;
+        right: 74%;
+        bottom: -38%;
+        left: -25%;
+    }
+
+    .shadow__top {
+        top: -17%;
+        right: -9%;
+        bottom: 71%;
+        left: 80%;
+        opacity: 0.4;
+    }
 }
