@@ -1,3 +1,5 @@
+import mastercardLogo from '../../assets/mastercard-logo.png';
+
 import './Content.scss';
 
 const Content = () => {
@@ -21,20 +23,23 @@ const Content = () => {
             </section>
             <section className="main__section financetech__cards">
                 <article className="financetech__main--card">
-                    <h5>
-                        Current Balance
-                    </h5>
-                    <h3>
-                        $5,750,20
-                    </h3>
-                    <p>
-                        xxxx xxxx xxxx xxxx
-                    </p>
-
-                    <span></span>
-                    <span></span>
-                    <h5>mastercard</h5>
-
+                    <section className="card__information">
+                        <h5 className="card__title">
+                            Current Balance
+                        </h5>
+                        <h3 className="card__balance">
+                            $5,750,20
+                        </h3>
+                        <p className="card__number">
+                            xxxx xxxx xxxx xxxx
+                        </p>
+                    </section>
+                    <section className="mastercard__logo">
+                        <img src={mastercardLogo} alt="MaterCard" />
+                        <h5 className="mastercard__title">
+                            mastercard
+                        </h5>
+                    </section>
                     <article className="financetech__secondary--card">
                         <span></span>
                         <span></span>
