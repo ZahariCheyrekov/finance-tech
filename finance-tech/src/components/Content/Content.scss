@@ -1,6 +1,7 @@
 @import '../../variables.scss';
 
 .main {
+    position: relative;
     display: flex;
     margin: 100px auto;
     color: $white-color;
@@ -8,6 +9,31 @@
     .main__section {
         flex-basis: 50%;
         padding-right: 40px;
+    }
+
+    .shadow__bottom,
+    .shadow__top {
+        position: absolute;
+        filter: blur(150px);
+
+        background: linear-gradient(177.23deg, $purple-color, $blue-color 109.75%);
+        opacity: 0.8;
+        border-radius: 50%;
+    }
+
+    .shadow__bottom {
+        top: 90%;
+        right: 90%;
+        bottom: -38%;
+        left: -25%;
+    }
+
+    .shadow__top {
+        top: -17%;
+        right: -9%;
+        bottom: 71%;
+        left: 80%;
+        opacity: 0.9;
     }
 }
 
