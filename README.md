@@ -13,6 +13,6 @@ A simple landing page project which was created by design from <a href="https://
 6. Type `npm start` to run the project in the browser. It will start on `http://localhost:3000`, but you can change it to another if necessary. Type `y` to do it.
 7. Explore FinanceTech landing page.
 
-# Application Picture
+# Landing Page Picture
 
 ![financetech](https://user-images.githubusercontent.com/95768526/192107931-d44809a3-3649-4d47-a9f4-5ed92cc97850.png)
