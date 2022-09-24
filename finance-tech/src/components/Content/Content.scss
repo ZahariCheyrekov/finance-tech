@@ -57,3 +57,28 @@
         border: 3px solid $white-color;
     }
 }
+
+.financetech__cards {
+    margin-left: 160px;
+
+    .financetech__main--card,
+    .financetech__secondary--card {
+        padding: 20px;
+        border-radius: 20px;
+        background-image: linear-gradient(to bottom, $purple-color, $blue-color);
+    }
+
+    .financetech__main--card {
+        width: 420px;
+        position: relative;
+    }
+
+    .financetech__secondary--card {
+        position: absolute;
+        top: 50%;
+        right: -40px;
+
+        width: 160px;
+        padding: 20px;
+    }
+}
