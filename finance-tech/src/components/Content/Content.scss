@@ -65,7 +65,7 @@
     .financetech__secondary--card {
         padding: 30px;
         border-radius: 20px;
-        box-shadow: 0 0 40px $purple-color;
+        box-shadow: 0 0 30px $blue-color;
         background-image: linear-gradient(to bottom, $purple-color, $blue-color);
     }
 
@@ -76,6 +76,24 @@
 
         display: flex;
         justify-content: space-between;
+
+        .card__title,
+        .card__number,
+        .mastercard__title {
+            margin: 0;
+            font-weight: normal;
+            font-size: 0.9rem;
+        }
+
+        .card__balance {
+            font-size: 1.4rem;
+        }
+
+        .card__number {
+            position: absolute;
+            bottom: 30px;
+            font-size: 1rem;
+        }
 
         .mastercard__logo>img {
             max-width: 68px;
