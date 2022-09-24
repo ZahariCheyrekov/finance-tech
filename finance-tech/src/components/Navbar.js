@@ -6,8 +6,8 @@ const Navbar = () => {
             <ul className="header__ul header__list">
                 <li className="header__list--item">
                     <i className="fa-sharp fa-solid fa-building-columns" />
-                    <h3>
-                        Finance<span>Tech</span>
+                    <h3 className="financetech__title">
+                        Finance<span className="financetech__bold">Tech</span>
                     </h3>
                 </li>
                 <li className="header__list--item">

@@ -7,6 +7,21 @@
 
     .header__list--item {
         color: $white-color;
+        font-size: 1.2rem;
+
+        .financetech__title {
+            font-weight: normal;
+
+            .financetech__bold {
+                font-weight: bold;
+            }
+        }
+
+        .fa-solid.fa-bars,
+        .fa-sharp.fa-solid.fa-building-columns,
+        .financetech__bold {
+            cursor: pointer;
+        }
     }
 
     .header__list--item:nth-child(1) {
