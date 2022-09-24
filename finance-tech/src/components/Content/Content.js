@@ -1,4 +1,5 @@
 import mastercardLogo from '../../assets/mastercard-logo.png';
+import cardChip from '../../assets/card-chip.png';
 
 import './Content.scss';
 
@@ -46,8 +47,12 @@ const Content = () => {
 
                         <h5>Credit Card</h5>
                         <span>**** 1289</span>
-                        <img />
-                        <h5>09/30</h5>
+                        <section className="card__bottom">
+                            <div className="card__chip--wrapper">
+                                <img src={cardChip} alt="card chip" />
+                            </div>
+                            <h5>09/30</h5>
+                        </section>
                     </article>
                 </article>
             </section>
