@@ -43,11 +43,13 @@ const Content = () => {
                     </section>
                 </article>
                 <article className="financetech__secondary--card">
-                    <span></span>
-                    <span></span>
-
-                    <h5>Credit Card</h5>
-                    <span>**** 1289</span>
+                    <div className="secondary__card--circles"></div>
+                    <h5 className="credit__card--title">
+                        Credit Card
+                    </h5>
+                    <span className="credit__card--data">
+                        **** 1289
+                    </span>
                     <section className="card__bottom">
                         <div className="card__chip--wrapper">
                             <img src={cardChip} alt="card chip" />
