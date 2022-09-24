@@ -128,12 +128,33 @@
 
     .financetech__secondary--card {
         position: absolute;
-        top: 45%;
+        top: 40%;
         right: 0;
 
-        width: 160px;
+        width: 180px;
         padding: 20px;
         overflow: hidden;
+
+        .secondary__card--circles {
+            margin-bottom: 60px;
+
+            &:after,
+            &::before {
+                content: "";
+                position: absolute;
+
+                width: 30px;
+                height: 30px;
+
+                border-radius: 50%;
+                background-color: $white-color;
+                opacity: 0.3;
+            }
+
+            &::before {
+                left: 22%;
+            }
+        }
 
         .card__bottom {
             display: flex;
