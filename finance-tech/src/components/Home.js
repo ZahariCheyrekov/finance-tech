@@ -1,8 +1,12 @@
 import Navbar from './Navbar';
 
+import './Home.scss';
+
 const Home = () => {
     return (
-        <Navbar />
+        <div className="div__wrapper">
+            <Navbar />
+        </div>
     );
 }
 
