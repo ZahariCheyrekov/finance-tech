@@ -1,4 +1,4 @@
-import partners from '../assets/partners.png';
+import partners from '../../assets/partners.png';
 
 import './Partners.scss';
 

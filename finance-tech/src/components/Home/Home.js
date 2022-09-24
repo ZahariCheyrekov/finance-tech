@@ -1,5 +1,5 @@
-import Navbar from './Navbar';
-import Partners from './Partners';
+import Navbar from '../Navbar/Navbar';
+import Partners from '../Partners/Partners';
 
 import './Home.scss';
 
