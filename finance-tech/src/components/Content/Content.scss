@@ -90,5 +90,20 @@
 
         width: 160px;
         padding: 20px;
+
+        .card__bottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .card__chip--wrapper {
+            background-color: $white-color;
+            border-radius: 8px;
+
+            height: 32px;
+            width: 50px;
+        }
     }
 }
