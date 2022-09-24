@@ -6,6 +6,7 @@ import './Content.scss';
 const Content = () => {
     return (
         <main className="main">
+            <span className="shadow__bottom"></span>
             <section className="main__section financetech__inforamtion">
                 <h2 className="main__section--title section__title--purple">
                     Scale Fintech
@@ -58,7 +59,8 @@ const Content = () => {
                     </section>
                 </article>
             </section>
-        </main >
+            <span className="shadow__top"></span>
+        </main>
     );
 }
 
