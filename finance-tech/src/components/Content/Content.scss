@@ -28,12 +28,32 @@
     .main__section--summary {
         width: 515px;
         margin: 20px 0;
-        
+
         font-size: 1.1rem;
         line-height: 1.4;
         letter-spacing: 1px;
         word-spacing: 1px;
-        
+
         filter: drop-shadow(2px 2px 2px $black-color);
+    }
+
+    .consultation__button {
+        position: relative;
+        background-color: transparent;
+        cursor: pointer;
+        color: $white-color;
+
+        font-size: 0.9rem;
+        font-weight: bold;
+
+        margin-top: 10px;
+        padding: 16px 40px;
+
+        border: 3px solid;
+        border-image: linear-gradient(to right, $purple-color, $blue-color) 1 1;
+    }
+
+    .consultation__button:hover {
+        border: 3px solid $white-color;
     }
 }
