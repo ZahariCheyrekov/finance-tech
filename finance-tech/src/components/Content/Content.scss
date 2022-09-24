@@ -3,15 +3,15 @@
 .main {
     display: flex;
     color: $white-color;
+    margin: 100px auto;
 
     .main__section {
         flex-basis: 50%;
+        padding-right: 40px;
     }
 }
 
 .financetech__inforamtion {
-    margin: 100px auto;
-
     .main__section--title {
         font-size: 4rem;
         margin: 0;
