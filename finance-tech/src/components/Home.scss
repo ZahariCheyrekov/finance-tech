@@ -1,7 +1,7 @@
 @import '../variables.scss';
 
 .div__wrapper {
-    width: $primary-width;
+    max-width: $primary-width;
     height: 100%;
     margin: 0 auto;
     padding: 20px;
