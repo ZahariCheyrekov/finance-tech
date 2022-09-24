@@ -15,7 +15,7 @@ const Content = () => {
                     Secure and highly customizable. Rise Finance is the best partner for you if you
                     want to scale your finance products worldwide.
                 </summary>
-                <button>
+                <button className="consultation__button">
                     CONSULTATION
                 </button>
             </section>
