@@ -41,19 +41,19 @@ const Content = () => {
                             mastercard
                         </h5>
                     </section>
-                    <article className="financetech__secondary--card">
-                        <span></span>
-                        <span></span>
+                </article>
+                <article className="financetech__secondary--card">
+                    <span></span>
+                    <span></span>
 
-                        <h5>Credit Card</h5>
-                        <span>**** 1289</span>
-                        <section className="card__bottom">
-                            <div className="card__chip--wrapper">
-                                <img src={cardChip} alt="card chip" />
-                            </div>
-                            <h5>09/30</h5>
-                        </section>
-                    </article>
+                    <h5>Credit Card</h5>
+                    <span>**** 1289</span>
+                    <section className="card__bottom">
+                        <div className="card__chip--wrapper">
+                            <img src={cardChip} alt="card chip" />
+                        </div>
+                        <h5>09/30</h5>
+                    </section>
                 </article>
             </section>
         </main >
