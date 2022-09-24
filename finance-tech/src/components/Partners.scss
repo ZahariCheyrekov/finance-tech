@@ -1,0 +1,11 @@
+@import '../variables.scss';
+
+.financetech__partners {
+    display: flex;
+    align-items: center;
+
+    .partners {
+       max-width: calc($primary-width - 300px);
+        margin: 0 auto;
+    }
+}
