@@ -21,7 +21,7 @@
     .section__title--purple {
         width: 400px;
         background-image: linear-gradient(to right, $blue-color, $purple-color);
-        -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 
@@ -60,6 +60,7 @@
 
 .financetech__cards {
     margin-left: 160px;
+    position: relative;
 
     .financetech__main--card,
     .financetech__secondary--card {
@@ -76,6 +77,7 @@
 
         display: flex;
         justify-content: space-between;
+        overflow: hidden;
 
         .card__title,
         .card__number,
@@ -99,15 +101,39 @@
             max-width: 68px;
             max-height: 38px;
         }
+
+        &:after,
+        &:before {
+            content: "";
+            position: absolute;
+            background-color: $black-color;
+
+            border-radius: 50%;
+            opacity: 0.1;
+
+            height: 300px;
+            width: 420px;
+        }
+
+        &:after {
+            top: 60%;
+            left: -40%;
+        }
+
+        &::before {
+            bottom: 60%;
+            right: -40%;
+        }
     }
 
     .financetech__secondary--card {
         position: absolute;
-        top: 50%;
-        right: -40px;
+        top: 45%;
+        right: 0;
 
         width: 160px;
         padding: 20px;
+        overflow: hidden;
 
         .card__bottom {
             display: flex;
@@ -122,6 +148,31 @@
 
             height: 32px;
             width: 50px;
+            z-index: 20;
+        }
+
+        &:after,
+        &:before {
+            content: "";
+            position: absolute;
+            background-color: $black-color;
+
+            border-radius: 50%;
+            opacity: 0.1;
+
+            height: 240px;
+            width: 320px;
+            z-index: 10;
+        }
+
+        &:after {
+            top: 40%;
+            right: 40%;
+        }
+
+        &::before {
+            bottom: 40%;
+            left: 40%;
         }
     }
 }
