@@ -1,0 +1,17 @@
+@import '../variables.scss';
+
+.header__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .header__list--item {
+        color: $white-color;
+    }
+
+    .header__list--item:nth-child(1) {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+    }
+}
