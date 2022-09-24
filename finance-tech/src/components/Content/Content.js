@@ -4,13 +4,13 @@ const Content = () => {
     return (
         <main className="main">
             <section className="main__section financetech__inforamtion">
-                <h2>
+                <h2 className="main__section--title section__title--purple">
                     Scale Fintech
                 </h2>
-                <h2>
+                <h2 className="main__section--title">
                     Safe And Secure
                 </h2>
-                <summary>
+                <summary className="main__section--summary">
                     Ship your fintech products to your customers with fast and reliable processes.
                     Secure and highly customizable. Rise Finance is the best partner for you if you
                     want to scale your finance products worldwide.

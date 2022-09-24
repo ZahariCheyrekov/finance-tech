@@ -1,5 +1,8 @@
+@import '../../variables.scss';
+
 .main {
     display: flex;
+    color: $white-color;
 
     .main__section {
         flex-basis: 50%;
@@ -8,4 +11,9 @@
 
 .financetech__inforamtion {
     margin: 100px auto;
+
+    .main__section--title {
+        font-size: 4rem;
+        margin:  0;
+    }
 }
